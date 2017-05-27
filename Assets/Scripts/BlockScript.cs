@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BlockScript : MonoBehaviour {
-
+    public float Speed = 10.0f;
 	// Use this for initialization
 	void Start () {
 		
