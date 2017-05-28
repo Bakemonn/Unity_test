@@ -1,16 +1,1 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class BlockScript : MonoBehaviour {
-    public float Speed = 10.0f;
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-}
+﻿using System.Collections;using System.Collections.Generic;using UnityEngine;public class BlockScript : MonoBehaviour {    public GameObject obj;    public SceneScript script;    void Start()    {        obj = GameObject.Find("SceneScript");        script = obj.GetComponent<SceneScript>();    }    void OnCollisionEnter()    {        Destroy(gameObject);                script.score += 10;        script.blockCt--;        Debug.Log("Hit");            }}

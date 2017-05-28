@@ -86,6 +86,14 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BallScript.cs" />
     <Compile Include="Assets\Scripts\BlockScript.cs" />
+    <Compile Include="Assets\Scripts\BottomWall.cs" />
+    <Compile Include="Assets\Scripts\GameClearScript.cs" />
+    <Compile Include="Assets\Scripts\GameOverScript.cs" />
+    <Compile Include="Assets\Scripts\HardBlockScript.cs" />
+    <Compile Include="Assets\Scripts\ParamScript.cs" />
+    <Compile Include="Assets\Scripts\PenetrateBlockScript.cs" />
+    <Compile Include="Assets\Scripts\PlayerScript.cs" />
+    <Compile Include="Assets\Scripts\SceneScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
